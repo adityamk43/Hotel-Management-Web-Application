@@ -27,26 +27,27 @@
             </div>
         </div>
 
-        <div class="container-fluid mt-5 ">
-            <div class="row justify-content-center">
-                <div class="col-md-5 mr-5 mb-3">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row offset-md-1">
+                <div class="col-md-5 mb-3">
                     <div class="card " style="box-shadow: 0px 0px 10px rgba(0,0,0,0.2);" >
                         <img class="card-img-top" src="./img/roomcard.jpeg" alt="Rooms">
                         <div class="card-body">
                             <h5 class="card-title text-danger text-center border-top-100 border-danger">Rooms</h5> 
                             <div class="text-center">
-                                <a href="rooms.jsp" class="btn btn-danger" role="button" aria-pressed="true">Learn More About Our Rooms</a>
+                                <a href="rooms.jsp" class="btn btn-danger btn-block" role="button" aria-pressed="true">Learn More About Our Rooms</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 ml-5 mb-5" >
+                
+                <div class="col-md-5" >
                     <div class="card" style="box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
                         <img class="card-img-top" src="./img/restaurantcard.jpeg" alt="Restaurants">
                         <div class="card-body">
                             <h5 class="card-title text-danger text-center">Restaurants</h5> 
                             <div class="text-center">
-                                <a href="#" class="btn mx-3 btn-danger">Learn More About Our Restaurants</a>
+                                <a href="#" class="btn btn-block btn-danger text-wrap">Learn More About Our Restaurants</a>
                             </div>
                         </div>
                     </div>
