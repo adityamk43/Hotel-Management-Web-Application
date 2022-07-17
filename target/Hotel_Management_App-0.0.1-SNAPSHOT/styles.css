@@ -1,0 +1,217 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#heading {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+}
+
+#quotes {
+    font-size: 20px;
+}
+
+.hotel-text {
+    font-family: courier, calibri;
+    text-align: left;
+    position: absolute;
+    width: 800px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hotel-image {
+    /* background-image: ; */
+    /* background-color: #cccccc; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+        url("./img/WelcomePageBkgrd.jpg");
+    height: 720px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* // More Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) {
+    .hotel-image {
+        height: 900px;
+    }
+    .hotel-text {
+        width: 300px;
+        top: 30%;
+    }
+    #heading {
+        font-size: 22px;
+    }
+    #quotes {
+        width: 370px;
+        font-size: 15px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .hotel-image {
+        height: 800px;
+    }
+    .hotel-text {
+        width: 400px;
+        top: 35%;
+    }
+    #heading {
+        font-size: 35px;
+    }
+    #quotes {
+        width: 480px;
+        font-size: 20px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hotel-image {
+        height: 900px;
+    }
+    .hotel-text {
+        width: 600px;
+        top: 28%;
+    }
+    #heading {
+        font-size: 35px;
+    }
+    #quotes {
+        width: 600px;
+        font-size: 20px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hotel-image {
+        height: 720px;
+    }
+    .hotel-text {
+        width: 800px;
+        top: 40%;
+    }
+    #heading {
+        font-size: 40px;
+    }
+    #quotes {
+        width: 800px;
+        font-size: 20px;
+    }
+}
+
+.bg-custom {
+    background: linear-gradient(
+        to right,
+        #555567,
+        #666477,
+        #787387,
+        #8a8297,
+        #9d92a7
+        );
+}
+
+.navbar-custom {
+    color: white;
+}
+
+.navbar-custom .nav-link:link {
+    color: black;
+}
+
+.navbar-custom .nav-link:visited {
+    color: black;
+}
+
+.navbar-custom .nav-link:hover {
+    color: black;
+    background: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+#Logo {
+    height: 55px;
+    width: 228px;
+}
+
+.btncustomcolor{
+    background-color: orangered;
+    color: white;
+}
+
+.room-background
+{
+    background: url("./img/roompage.jpeg");
+    height:400px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#room-heading
+{
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    color: black;
+}
+.room-para{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.about-background
+{
+    background: url("./img/Aboutpage.jpeg");
+    height:500px;
+    width: auto;
+    background-position: center;
+    background-repeat:initial ;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+}
+.contact-background
+{
+    background: url("./img/Contactpage.jpeg");
+    height:/*500px;*/ 70vh;
+    width: auto;
+    background-position: center;
+    background-attachment:scroll;
+    background-repeat:initial ;
+    background-size: cover;
+    position: relative;
+/*    background-attachment: scroll;*/
+}
+
+#privacy{
+    list-style: none; 
+    margin-left: -40px;
+}
+
+#privacy li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#terms-privacy-font
+{
+    font-family: 'Sansita Swashed', cursive;
+/*    font-size: 1.5rem;*/
+    color: black;
+}

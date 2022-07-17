@@ -1,0 +1,267 @@
+occupancy {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button1:hover {
+    cursor: pointer;
+}
+.value-button2:hover {
+    cursor: no-drop;
+}
+
+form .value-button {
+    margin-right: -4px;
+    background-color: rgba(255,0,0,0.5);
+    height: 40px;
+    text-align: center;
+    border-radius: 20px 20px;
+    box-sizing: border-box;
+    padding-top:5px;
+}
+form .value-button:hover {
+    background-color:  lightgray ;
+}
+
+form .value-button {
+    margin-left: -4px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px 20px;
+    box-sizing: border-box;
+    padding-top:5px;
+    /*    padding-bottom: 5px;*/
+}
+
+/*form .value-button:hover {
+    background-color: darkgray  ;
+}*/
+/*form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}*/
+
+#addrooms1, #addrooms2, #addrooms3, #addrooms4{
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+.img-thumbnail{
+    /*border: 0;*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.readablecontent input:read-only{
+    color:black; 
+    background-color: white !important;
+    border-color: gray !important;
+    border-radius: 25px;
+}
+
+input.number {
+    text-align: center;
+    border: none;
+    background-color: white;
+    /*    border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;*/
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+#hidebreakup{
+    display: inline-block;
+    color: crimson;
+    font-weight: bold !important;
+}
+
+#currencycontent
+{
+    display: none;
+}
+
+#hidebreakup:hover
+{
+    color: gray !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media (max-width: 412px){
+    #noofkids{
+        margin-left: 15px !important;
+    }
+}
+
+#checkindate
+{
+    position: absolute;
+    left:80px;
+}
+#checkoutdate
+{
+    position: absolute;
+    right: 70px;
+}
+
+/* // More Small devices (landscape phones, 300px and below) */
+@media (max-width: 380px) {
+    .datepickercontainer{
+        top:10% !important;
+        width: 260px !important;
+        height: 80px !important;
+        font-size: 20px;
+    }
+    #checkindate
+    {
+        position: absolute;
+        top:20%;
+        width: 240px;
+        font-size: 15px !important;
+        left:2.5% !important;
+        font-size: 10px;
+
+    }
+    #checkoutdate
+    {
+        position:absolute;
+        max-width: 240px;
+        max-height: 50px;
+        font-size: 15px !important;
+        top:55%;
+        left:2.5% !important;
+    }
+
+    #checkinlabel{
+        position:absolute;
+        font-size: 20px;
+        top:10%;
+        left:15% !important;
+    }
+    #checkoutlabel{
+        position:absolute;
+        font-size: 20px;
+        top:45%;
+        white-space: nowrap;
+        left:13% !important;
+    }
+
+    .datebr
+    {
+        display: inline;
+    }
+}
+
+
+/* // More Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) {
+    .datepickercontainer{
+        top:10% !important;
+        max-width: 350px ;
+        height: 300px !important;
+        font-size: 20px ;
+    }
+    #checkindate
+    {
+        position: absolute;
+        top:20%;
+        left:10%;
+        font-size: 20px;
+
+    }
+    #checkoutdate
+    {
+        position:absolute;
+        width: 278px !important;
+        font-size: 20px;
+        top:55%;
+        left:10%;
+    }
+
+    #checkinlabel{
+        position:absolute;
+        font-size: 20px;
+        top:10%;
+        left:15% !important;
+    }
+    #checkoutlabel{
+        position:absolute;
+        font-size: 20px;
+        top:45%;
+        white-space: nowrap;
+        left:13% !important;
+    }
+
+    .datebr
+    {
+        display: inline;
+    }
+}
+
+
+/* // Small devices (landscape phones, 912px and below) */
+@media (max-width: 992px) {
+    .datepickercontainer{
+        top:20% !important;
+        max-width: 400px ;
+        height: 300px !important;
+        font-size: 20px;
+    }
+    #checkindate
+    {
+        position: absolute;
+        top:20%;
+        left:10%;
+        font-size: 20px;
+
+    }
+    #checkoutdate
+    {
+        position:absolute;
+        font-size: 20px;
+        top:55%;
+        left:10%;
+    }
+
+    #checkinlabel{
+        position:absolute;
+        font-size: 20px;
+        top:10%;
+        left:15% !important;
+    }
+    #checkoutlabel{
+        position:absolute;
+        font-size: 20px;
+        top:45%;
+        white-space: nowrap;
+        left:13% !important;
+    }
+
+    .datebr
+    {
+        display: inline;
+    }
+}
+
