@@ -58,8 +58,8 @@ html,body
     }
 }
 
-/* // More Small devices (landscape phones, 366px and below) */
-@media (max-width: 350px) {
+/* // More Small devices (landscape phones, 362px and below) */
+@media (max-width: 370px) {
     .hotel-image {
         height: 600px;
     }
