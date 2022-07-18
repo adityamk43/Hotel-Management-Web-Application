@@ -19,6 +19,8 @@ $(document).ready(function () {
 //        $("#roomcolumn").css("height", "100vh !important");
 //        $('#roomcolumn').height(mheight);
 //        $("#bookingmenu").css("width", "1500");
+
+
         $("#roomname").val($('#RoomsModalLongTitle').text().trim());
 
         $("#roomsadded").val($('#Roomnumber').val());
@@ -46,6 +48,12 @@ $(document).ready(function () {
         var TotalAmount = (parseFloat(totalpriceofabove) + (GSTAmount)).toFixed(2);
         $('#totalamount').val(TotalAmount);
 
+		//Moving to form section after the click happens especially done for mobile users		
+		setTimeout(function() {
+                   document.getElementById('formcolumn').scrollIntoView();
+                }, 400);
+			
+	
     });
     $('#hidebreakup').click(function () {
         if ($('#hidebreakup').text() == "Hide Breakup") {
@@ -60,7 +68,6 @@ $(document).ready(function () {
             $('#hidebreakup').text("Hide Breakup");
         }
     });
-
 
 });
 

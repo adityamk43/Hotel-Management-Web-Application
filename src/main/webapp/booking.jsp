@@ -525,10 +525,26 @@ Guest guest = (Guest) session.getAttribute("CurrentGuest");
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-danger" id="formdisplay">Save
+					<button type="button" onclick = "closeModal()" class="btn btn-danger" id="formdisplay">Save
 						changes</button>
+<!-- 					<a id="formdisplay" onclick = "closeModal()" class="btn btn-danger"  -->
+<!-- 						href="#" role="button">Save Changes</a> -->
 				</div>
 			</div>
+			
+			<script>
+				function closeModal()
+				{
+// 					$("#formcolumn").focus();
+
+// 					 $("html, body").animate({
+// 					    scrollTop: $("#formcolumn").offset().top
+// 					  }, 2000) /* 2000 milliseconds*/
+					  
+					$("#RoomsModalCenter").modal('hide');
+				
+				}
+			</script>
 		</div>
 	</div>
 
@@ -563,6 +579,7 @@ Guest guest = (Guest) session.getAttribute("CurrentGuest");
 					$(document).ready(function() {
 						$("#LoginModal").modal('show');
 					});
+					
 				</script>
 
 				<%
